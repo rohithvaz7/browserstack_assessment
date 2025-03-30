@@ -17,7 +17,7 @@ public class TranslatorUtil {
             System.out.println("\n🔹 Translated Titles:");
 
             for (String title : spanishTitles) {
-                TextResult translatedText = translator.translateText(title, null, "EN");
+                TextResult translatedText = translator.translateText(title, null, "en-GB");
                 translatedTitles.add(translatedText.getText());
                 System.out.println(translatedText.getText());
             }
