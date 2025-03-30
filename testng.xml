@@ -48,5 +48,4 @@
             <class name="org.example.ElPaisBrowserStackTest"/>
         </classes>
     </test>
-
 </suite>
