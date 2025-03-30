@@ -1,0 +1,443 @@
+
+Rohith Vasudevan <rohith.vasudevan07@gmail.com>
+7:32 PM (12 minutes ago)
+to me
+
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+Mar 30, 2025 7:24:42 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+
+INFO: Using OpenTelemetry for tracing
+
+? Running test on: Chrome | OS: Windows 10
+
+
+
+Running on: Chrome - Windows 10
+
+? Accepted Cookies
+
+? Browser maximized!
+
+
+
+? Article 1: Miedo en el pa?s de la libertad
+
+? Content: Primero fueron a por los venezolanos. Las im?genes de cientos de presuntos delincuentes expulsados sumariamente de Estados Unidos sin asistencia letrada y sometidos a un trato degradante en una prisi?...
+
+? Saved Image: article_1.jpg
+
+? Stale element detected. Retrying...
+
+
+
+? Article 2: Aitor Esteban, presidente del PNV: ?Nacionalistas s?, pero primero dem?cratas humanistas?
+
+? Content: ?Para el PNV, lo primero siempre ser?n la democracia y los derechos humanos, incluso por encima de nuestro ideal nacionalista?. Aitor Esteban se ha estrenado como presidente del PNV con una defensa a ...
+
+? Saved Image: article_2.jpg
+
+? Stale element detected. Retrying...
+
+? Stale element detected. Retrying...
+
+
+
+? Article 3: Yolanda D?az: ?No es tiempo de rearmar Europa, sino de refundarla?
+
+? Content: El futuro de la seguridad europea, el gasto en defensa y la unidad de la izquierda con el horizonte puesto en las pr?ximas generales han acaparado los mensajes de este domingo en el acto de cierre de ...
+
+? Saved Image: article_3.jpg
+
+
+
+? Article 4: 
+
+? Content: El PP ha criticado a Mar?a Jes?s Montero, vicepresidenta primera del Gobierno y ministra de Hacienda, por tildar de ?verg?enza? la sentencia con la que el Tribunal Superior de Justicia de Catalu?a (TS...
+
+? Saved Image: article_4.jpg
+
+
+
+? Translated Titles:
+
+Title: Fear in the land of the free
+
+Content:
+
+First they went after the Venezuelans. The images of hundreds of suspected criminals summarily expelled from the United States without legal counsel and subjected to degrading treatment in a prison in El Salvador are an exhibition of cruelty with a single goal: to terrorise millions of undocumented people living and working in the country. It doesn't matter that the measure may be illegal. By the time it is decided in a court of law, the terror of taking to the streets will have destroyed many lives. The average American is not going to defend the rights of alleged wrongdoers (the government has presented no evidence that they are), but soon the tactic of fear as a political weapon will begin to touch them more closely. It is already doing so.
+
+Donald Trump's second administration, cleansed of inconvenient officials, is extending that same strategy to all social orders. Through various presidential decrees, Trump intends to eliminate any voice that contradicts his political ideology not only in his administration - where he has eliminated all departments and jobs related to diversity and inclusion - but also in society. He started by threatening big business with the loss of public contracts, and some of them caved in.
+
+In this project, silencing critics is key. Now it is the turn of universities, which, with the excuse of the demonstrations against the massacre of civilians in Gaza, he is threatening to cut off federal funding - much of it dedicated to scientific research - if they do not put a stop to student protests. In this case, the first target for all to take note has been Columbia in New York. The university has agreed to negotiate with the administration. The institution's president resigned on Friday.
+
+From the universities to the students themselves. The whole world has been able to see images, reminiscent of a drug trafficking operation, of the street arrest of a Turkish student at Boston University because she had taken part in pro-Palestinian demonstrations. Hundreds of international student visas have been revoked for this reason and a judge had to suspend the attempted deportation of a Columbia student with a permanent residence permit. The terror of saying anything inconvenient to the government extends no less to the field of higher education, that of academic freedom and criticism.
+
+The next target is lawyers. In this case, the unspoken threat is that if they represent individuals or institutions in cases against the current White House they will lose public contracts. At least two firms have decided to sue the government, but two others have agreed to negotiate. These are multi-million dollar firms that are giving up the fight, so the message is lethal to the rest of the profession, with much more modest capacities. Again, through intimidation, the government is gaining power in US society. It has threatened the press before. Following the same pattern, it chose the Associated Press, the most respected news agency in the country, to set an example. AP refused to refer to the Gulf of Mexico as the Gulf of America, as Trump wants, and has been excluded from the group of media with access to the Oval Office.
+
+The aim of this offensive goes beyond Trump's personal agenda: it also serves the reactionary fanaticism that surrounds him. Thus, by blackmail, the artificial idea of the USA as a white, heterosexual, conservative country is taking shape, in which all those who do not conform to this pattern are mere guests with a subordinate role in society. US democracy has been built on an extreme conception of individual freedom. That may change forever if the rejection of this policy does not begin to become widespread. In the face of congressional passivity, the actions of some judges continue. Every surrender is a space of power occupied by Trumpism, i.e. the doctrine of fear.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Title: Aitor Esteban, President of the PNV: "Nationalists yes, but humanist democrats first".
+
+Content:
+
+"For the PNV, democracy and human rights will always come first, even above our nationalist ideal". Aitor Esteban has made his debut as president of the PNV with a staunch defence of democratic values in the face of the rise of autocracies that are causing some Western countries to veer "towards authoritarianism". "Nationalists, yes, but humanist democrats first", proclaimed the leader of the PNV after collecting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Title: Yolanda D?az: "It is not time to rearm Europe, but to re-found it".
+
+Content:
+
+The future of European security, defence spending and the unity of the left with a view to the next general elections dominated the messages this Sunday at the closing ceremony of the Sumar Movement Assembly. The second vice-president of the government, Yolanda D?az, who has now become number three on the list as institutional coordinator of the group, has vindicated the "mistura" (mixture in Galician) in a speech reminiscent of four years ago, when she began to weave together the "mistura" (mixture in Galician) in a speech that ...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Title:
+
+Content:
+
+The PP has criticised Mar?a Jes?s Montero, first vice-president of the Government and Minister of Finance, for calling the sentence by which the High Court of Justice of Catalonia (TSJC) acquitted Dani Alves of a crime of sexual assault a "disgrace". "What is a disgrace are his attacks on Thursdays," says Cuca Gamarra, secretary general of the PP.
+
+Montero was asked on Friday at an event in Granada about the acquittal of Dani Alves. The decision of the appeals section of the High Court of Justice of Catalonia had just been made public, which unanimously overturned the sentence that condemned Barcelona footballer Dani Alves to four years in prison for sexual assault on the grounds of "value deficits". Montero responded to questions from journalists by urging caution. "I'm going to be prudent because I haven't read the order and I don't know what it is based on". A day later, on Saturday, at the inauguration of the 16th Provincial Congress of the PSOE in Ja?n, Montero described the acquittal of the former Barcelona footballer as "shameful".
+
+She also said she considered it a shame that "the testimony of a victim is still being questioned and it is said that the presumption of innocence comes before the testimony of young, brave women who decide to denounce the powerful, the big and the famous". She added: "That is why we want to say to this woman that we are with you, we are with her, we are with all those who confront giants in order to claim the dignity that in her words, in her mouth, is the dignity of all of us".
+
+The responses to Montero's statements have not been long in coming. The mayor of Badalona (Barcelona), Xavier Garc?a Albiol, of the PP, this Sunday branded the first vice-president and finance minister, Mar?a Jes?s Montero, "illiterate".
+
+These statements are typical of an illiterate. The problem for all of us is that this lady is vice-president of the government. Her non-verbal communication, speaking with her chin raised and her gaze defiant, shows that we are in the hands of a person who is profoundly... https://t.co/sBktE2xufR
+
+"These statements are typical of an illiterate. The problem for all of us is that this lady is vice-president of the government", Albiol wrote in a publication on X. Albiol has reproached Montero's verbal communication about the sentence in her speech at the 16th Provincial Congress of the PSOE of Ja?n as typical of a person, textually, deeply arrogant: "The mixture of ignorance, power and arrogance is explosive".
+
+The secretary general of the PP, Cuca Gamarra, also criticised Montero on Saturday. "What is shameful are her populist interventions and her attacks on judges, ignoring the most basic democratic principles". Vox's spokesman in the Andalusian Parliament, Manuel Gavira, also criticised the first vice-president of the government on Sunday for "seriously attacking judicial independence", while at the same time reproaching her for "not saying a peep about the PSOE's whoremongers".
+
+The condemnatory sentence considered it proven that he penetrated the girl without her consent and with violence. The TSJC, however, did not attribute "reliability" to the testimony. The court, made up of three women (Mar?a ?ngels Vivas, Roser Bach and Mar?a Jes?s Manzano) and one man (Manuel ?lvarez), considers that the victim's credibility cannot be understood as a synonym for reliability. "Credibility responds to a subjective belief, which cannot be contrasted", he points out. "Reliability, on the other hand, concerns the statement itself", he adds. And here, he insists, it is necessary to evaluate its "veracity, that is, the correspondence between what the testimony contains and what has actually happened, and this is only possible if there are objective elements that allow such a determination", he indicates.
+
+One of the key elements is the analysis of the discotheque's images of what happened that night, which were filmed, with the exception of the bathroom where the victim claims he raped her, where there are no security cameras. In her statement, she explained that she and her friends were uncomfortable in the room where they went upstairs with Alves and his friends, at the moment before the sexual assault. "What she says, that they were uncomfortable, is not compatible with what is later seen in the images," the court said, noting that she is observed "participating in the dance with the accused in the same way as any other person willing to have a good time".
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+? Repeated Words:
+
+been: 7
+
+these: 3
+
+barcelona: 3
+
+court: 5
+
+an: 6
+
+as: 10
+
+at: 8
+
+be: 4
+
+same: 4
+
+by: 6
+
+a: 36
+
+i: 4
+
+the: 147
+
+s: 12
+
+t: 4
+
+illiterate: 3
+
+which: 6
+
+albiol: 3
+
+she: 9
+
+some: 3
+
+for: 10
+
+title: 4
+
+content: 4
+
+montero: 8
+
+society: 3
+
+mixture: 3
+
+with: 19
+
+he: 9
+
+president: 9
+
+if: 4
+
+fear: 3
+
+sentence: 4
+
+in: 41
+
+made: 3
+
+is: 34
+
+it: 15
+
+government: 9
+
+have: 6
+
+mar: 4
+
+that: 28
+
+all: 8
+
+were: 3
+
+no: 3
+
+student: 4
+
+and: 26
+
+of: 89
+
+victim: 3
+
+on: 13
+
+pp: 4
+
+about: 3
+
+alves: 4
+
+they: 7
+
+pnv: 4
+
+are: 16
+
+where: 4
+
+vice: 6
+
+speech: 3
+
+to: 44
+
+but: 6
+
+country: 3
+
+administration: 3
+
+had: 3
+
+jes: 3
+
+has: 14
+
+us: 5
+
+this: 13
+
+we: 5
+
+not: 10
+
+dani: 3
+
+criticised: 3
+
+what: 8
+
+typical: 3
+
+time: 4
+
+trump: 4
+
+her: 14
+
+images: 4
+
+psoe: 3
+
+sunday: 3
+
+sexual: 3
+
+assault: 3
+
+reliability: 3
+
+power: 3
+
+first: 8
+
+before: 3
+
+his: 5
+
+from: 4
+
+testimony: 4
+
+person: 3
+
+who: 5
+
+statements: 3
+
+general: 3
+
+public: 3
+
+said: 3
+
+will: 4
+
+also: 5
+
+? Browser session ended.
+
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 116.516 s - in TestSuite
+
+[INFO] 
+
+[INFO] Results:
+
+[INFO] 
+
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+
+[INFO] ------------------------------------------------------------------------
+
+[INFO] BUILD SUCCESS
+
+[INFO] ------------------------------------------------------------------------
+
+[INFO] Total time:  02:04 min
+
+[INFO] Finished at: 2025-03-30T19:26:39+05:30
+
+[INFO] ------------------------------------------------------------------------
+
+rohithvasudevan@Rohiths-MacBook-Pro browserstack_task % 
+
