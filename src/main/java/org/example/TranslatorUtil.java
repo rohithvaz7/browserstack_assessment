@@ -6,7 +6,7 @@ import com.deepl.api.Translator;
 import java.util.*;
 
 public class TranslatorUtil {
-    private static final String AUTH_KEY = "bcb86924-a195-4fec-a0f3-b13507a80df9:fx"; // Replace with your actual API key
+    private static final String AUTH_KEY = ""; // Replace with your actual API key
 
     public static List<String> translateTitles(List<String> spanishTitles) {
         List<String> translatedTitles = new ArrayList<>();
