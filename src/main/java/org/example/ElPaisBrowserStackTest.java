@@ -20,48 +20,37 @@ import java.util.Map;
 public class ElPaisBrowserStackTest {
     private WebDriver driver;
 
-    // 🔹 BrowserStack Credentials (Replace with your actual credentials)
-    private static final String USERNAME = "rohithvasudevan_pAriKW";
-    private static final String AUTOMATE_KEY = "2aKqVfSQAGLZsx9gHUdC";
+    // 🔹 BrowserStack Credentials
+    private static final String USERNAME = "";
+    private static final String AUTOMATE_KEY = "";
     private static final String BROWSERSTACK_URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub.browserstack.com/wd/hub";
-
 
     // 🔹 BrowserStack Setup
     @BeforeClass
     @Parameters({"browser", "os"})
-    public void setup(@Optional("Chrome") String browser, @Optional("Windows 10") String os) throws MalformedURLException {
+    public void setup(String browser, String os) throws MalformedURLException {
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability("browserName", browser);
         caps.setCapability("browserVersion", "latest");
 
-        // ✅ Corrected W3C Compliant Capabilities
+        // ✅ W3C-Compliant BrowserStack Capabilities
         Map<String, Object> bstackOptions = new HashMap<>();
-        bstackOptions.put("os", os);  // ✅ Use "Windows", "OS X", "iOS", "Android"
-        bstackOptions.put("osVersion", "latest"); // ✅ Specify OS Version if needed
         bstackOptions.put("sessionName", "El Pais Scraping Test");
+        bstackOptions.put("acceptInsecureCerts", true); // Try this
 
 
-        if (os.equalsIgnoreCase("Windows 10") || os.equalsIgnoreCase("Windows 11")) {
+        if (os.startsWith("Windows")) {
             bstackOptions.put("os", "Windows");
             bstackOptions.put("osVersion", os.replace("Windows ", ""));
-        }
-        else if (os.equalsIgnoreCase("macOS Ventura") || os.equalsIgnoreCase("macOS Sonoma")) {
+        } else if (os.startsWith("macOS")) {
             bstackOptions.put("os", "OS X");
             bstackOptions.put("osVersion", os.replace("macOS ", ""));
-        }
-        else if (os.equalsIgnoreCase("Android") || os.equalsIgnoreCase("iOS")) {
-            bstackOptions.put("device", browser); // Set mobile device name
+        } else if (os.equalsIgnoreCase("Android") || os.equalsIgnoreCase("iOS")) {
+            bstackOptions.put("device", browser); // Mobile device name
             bstackOptions.put("realMobile", "true");
-        }
-        else {
+        } else {
             throw new IllegalArgumentException("Unsupported OS: " + os);
         }
-
-        bstackOptions.put("sessionName", "El Pais Scraping Test");
-        caps.setCapability("bstack:options", bstackOptions);
-
-        driver = new RemoteWebDriver(new URL(BROWSERSTACK_URL), caps);
-        System.out.println("✅ Running test on: " + browser + " | OS: " + os);
 
         caps.setCapability("bstack:options", bstackOptions);
 
@@ -69,31 +58,18 @@ public class ElPaisBrowserStackTest {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-infobars");
             options.addArguments("--disable-popup-blocking");
-            options.addArguments("--remote-debugging-port=9222");
             caps.setCapability(ChromeOptions.CAPABILITY, options);
-        }
-
-        else if (browser.equalsIgnoreCase("Firefox")) {
+        } else if (browser.equalsIgnoreCase("Firefox")) {
             FirefoxOptions options = new FirefoxOptions();
             caps.setCapability(FirefoxOptions.FIREFOX_OPTIONS, options);
-        }
-        else if (browser.equalsIgnoreCase("Safari")) {
+        } else if (browser.equalsIgnoreCase("Safari")) {
             SafariOptions options = new SafariOptions();
             caps.setCapability("safari.options", options);
-        }
-        else if (browser.contains("iPhone") || browser.contains("iPad")) {
-            bstackOptions.put("device", browser);
-            bstackOptions.put("realMobile", "true");
-        }
-        else if (browser.contains("Samsung") || browser.contains("Pixel") || browser.contains("Galaxy")) {
-            bstackOptions.put("device", browser);
-            bstackOptions.put("realMobile", "true");
         }
 
         driver = new RemoteWebDriver(new URL(BROWSERSTACK_URL), caps);
         System.out.println("✅ Running test on: " + browser + " | OS: " + os);
     }
-
 
     public WebDriver getDriver() {
         return driver;
@@ -101,7 +77,8 @@ public class ElPaisBrowserStackTest {
 
     // 🔹 Test Case - Scrape, Translate & Analyze
     @Test
-    public void testElPaisScraping(String browser, String version, String os) {
+    @Parameters({"browser", "os"})
+    public void testElPaisScraping(String browser, String os) {
         System.out.println("\nRunning on: " + browser + " - " + os);
 
         // Navigate & Scrape Articles
@@ -117,24 +94,25 @@ public class ElPaisBrowserStackTest {
     }
 
     // 🔹 Cleanup
-    @AfterMethod
+    @AfterClass
     public void teardown() {
         if (driver != null) {
             driver.quit();
+            System.out.println("✅ Browser session ended.");
         }
     }
 
+    // 🔹 Handle Cookie Popup & Maximize Window
     private void handleCookiePopup(WebDriver driver) {
-            try {
-                WebElement acceptButton = driver.findElement(By.xpath("//*[contains(text(), 'Accept') or contains(text(), 'Aceptar')]"));
-                acceptButton.click();
-                System.out.println("✅ Accepted Cookies");
-                driver.manage().window().maximize();
-                System.out.println("✅ Browser maximized!");
-            } catch (NoSuchElementException e) {
-                System.out.println("⚠️ No cookie popup found, continuing...");
-            }
+        try {
+            Thread.sleep(4000);
+            WebElement acceptButton = driver.findElement(By.xpath("//*[contains(text(), 'Accept') or contains(text(), 'Aceptar')]"));
+            acceptButton.click();
+            System.out.println("✅ Accepted Cookies");
+            driver.manage().window().maximize();
+            System.out.println("✅ Browser maximized!");
+        } catch (NoSuchElementException | InterruptedException e) {
+            System.out.println("⚠️ No cookie popup found, continuing...");
+        }
     }
 }
-
-
